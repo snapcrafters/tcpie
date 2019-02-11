@@ -1,5 +1,4 @@
 name: tcpie
-version: "4.0.2"
 summary: CLI tool to ping any TCP port
 description: |
   tcpie is a tool to measure latency and verify the reliabilty of a TCP connection.
