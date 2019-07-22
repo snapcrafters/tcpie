@@ -3,6 +3,7 @@ summary: CLI tool to ping any TCP port
 description: |
   tcpie is a tool to measure latency and verify the reliabilty of a TCP connection.
 adopt-info: tcpie
+base: core18
 
 grade: stable
 confinement: strict
