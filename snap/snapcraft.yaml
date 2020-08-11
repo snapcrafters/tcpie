@@ -17,6 +17,8 @@ parts:
   tcpie:
     plugin: nodejs
     source: https://github.com/silverwind/tcpie.git
+    build-packages:
+     - curl
     override-pull: |
       snapcraftctl pull
       last_committed_tag="$(curl --silent 'https://api.github.com/repos/silverwind/tcpie/releases/latest' | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')"
