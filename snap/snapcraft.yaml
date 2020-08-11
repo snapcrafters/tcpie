@@ -17,6 +17,7 @@ parts:
   tcpie:
     plugin: nodejs
     source: https://github.com/silverwind/tcpie.git
+    nodejs-version: "12.18.3"
     build-packages:
      - curl
     override-pull: |
